@@ -2,7 +2,7 @@ left_list = []
 right_list = []
 diff = 0
 
-with open('input1.txt') as f:
+with open('day1/input1.txt') as f:
   for line in f:
     left_item, right_item = str.split(line)
     left_list.append(int(left_item))
